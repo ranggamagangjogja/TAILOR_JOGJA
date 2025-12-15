@@ -33,14 +33,6 @@ export default function Navbar() {
               Cara Pesan
             </a>
 
-            {/* Login Admin */}
-            <Link
-              to="/admin/login"
-              className="text-gray-600 hover:text-amber-600 font-medium"
-            >
-              Login Admin
-            </Link>
-
             <button className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-2 rounded-lg">
               Pesan Sekarang
             </button>
@@ -70,15 +62,6 @@ export default function Navbar() {
             <a href="#proses" className="block text-gray-600 hover:text-amber-600 font-medium">
               Cara Pesan
             </a>
-
-            {/* Login Admin Mobile */}
-            <Link
-              to="/admin/login"
-              onClick={() => setIsOpen(false)}
-              className="block text-gray-600 hover:text-amber-600 font-medium"
-            >
-              Login Admin
-            </Link>
 
             <button className="w-full bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-2 rounded-lg">
               Pesan Sekarang
